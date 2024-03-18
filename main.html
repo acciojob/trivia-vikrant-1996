@@ -1,48 +1,32 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital of India</title>
+    <style>
+        blockquote {
+            max-width: 600px;
+            margin: 10px;
+            padding: 15px;
+            border-left: 8px solid green;
+            background-color: #f8fffe;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
-	 <style>
-            body {
-                font-family: Arial, sans-serif;
-            }
-    
-            .question-container {
-                max-width: 600px;
-                margin: 10px;
-                padding: 15px;
-                border-left: 8px solid green;
-                background-color: #f8fffe;
-                font-weight: bold;
-            }
-        </style>
-    <div class="question-container">
-        <p>What is the capital of India?</p>
-        
-        <form>
-            <label>
-                <input type="radio" name="capital" value="new-delhi"> New Delhi
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="capital" value="mumbai"> Mumbai
-            </label>
-        </form>
-    
-        <blockquote>
-            New Delhi is the capital of India and an administrative district of NCT Delhi.
-            <footer>Reference: <cite><a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Wikipedia</a></cite></footer>
-        </blockquote>
-    </div>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h2>What is the capital of India?</h2>
+    <form>
+        <input type="radio" id="new_delhi" name="capital" value="New Delhi">
+        <label for="new_delhi">New Delhi</label><br>
+        <input type="radio" id="mumbai" name="capital" value="Mumbai">
+        <label for="mumbai">Mumbai</label><br>
+    </form>
 
+    <blockquote>
+        "New Delhi is the capital of India and an administrative district of NCT Delhi."
+        <footer>From: <cite><a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Wikipedia</a></cite></footer>
+    </blockquote>
 </body>
-
 </html>
